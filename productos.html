@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/catalogo1.js"></script>
+</head>
+<body>
+
+<!-- HTML for the product page -->
+<form class="form-product">
+  <div>
+    <label for="product-estado">Estado:</label>
+      <select id="product-estado" name="product-estado">
+        <option value="Usado">Usado</option>
+        <option value="Nuevo">Nuevo</option>
+      </select>
+  </div>  
+  <div>
+      <label for="product-name">Modelo del iPhone:</label>
+      <select id="product-name" name="product-name">
+        <option value="iPhone 11">iPhone 11</option>
+        <option value="iPhone 11 Pro">iPhone 11 Pro</option>
+        <option value="iPhone 11 Pro Max">iPhone 11 Pro Max</option>
+        <option value="iPhone 12">iPhone 12</option>
+        <option value="iPhone 12 Pro">iPhone 12 Pro</option>
+        <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+        <option value="iPhone 13">iPhone 13</option>
+        <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+        <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
+      </select>
+      
+    </div>
+    <div>
+        <label for="product-price">Precio del producto:</label>
+        <input type="text" id="product-price" name="product-price">
+      </div>
+      <div>
+        <label for="product-mem">Memoria:</label>
+        <select id="product-mem" name="product-mem">
+          <option value="64">64</option>
+          <option value="128">128</option>
+          <option value="256">256</option>
+          <option value="512">512</option>
+          <option value="1024">1Tb</option>
+        </select>
+        
+      </div>
+      <div>
+        <label for="product-col">Color:</label>
+        <select id="product-col" name="product-col">
+          <option value="">Seleccione un color</option>
+          <option value="Space Gray">Space Gray</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+          <option value="Rose Gold">Rose Gold</option>
+          <option value="Red">Red</option>
+          <option value="Purple">Purple</option>
+          <option value="White">White</option>
+          <option value="Black">Black</option>
+        </select>        
+      </div>
+      <div>
+      <label for="product-bat">Condicion de bateria:</label>
+      <input type="text" id="product-bat" name="product-bat">
+    </div>
+    <button type="submit">Agregar al carrito</button>
+  </form>
+  
+  <!-- HTML for the cart page -->
+  <div class="cart-container"></div>
+  
+</body>
+</html>
